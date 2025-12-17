@@ -133,12 +133,12 @@ function SplashScreen() {
                 onKeyDown={handleKeyDown}
               />
               <button
-                className="bg-[#FFBADE] text-white py-3 px-4 rounded-xl font-extrabold"
+                className="bg-[#FFBADE] text-white py-3 px-4 rounded-xl font-extrabold group"
                 onClick={handleSearchSubmit}
               >
                 <FontAwesomeIcon
                   icon={faMagnifyingGlass}
-                  className="text-lg text-black hover:text-white max-[600px]:mt-[7px]"
+                  className="text-lg text-black group-hover:text-white max-[600px]:mt-[7px]"
                 />
               </button>
             </div>
